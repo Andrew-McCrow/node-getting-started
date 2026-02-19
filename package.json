@@ -1,0 +1,25 @@
+{
+  "name": "node-crash-course-netninja",
+  "version": "1.0.0",
+  "description": "https://www.theodinproject.com/lessons/nodejs-getting-started",
+  "homepage": "https://github.com/Andrew-McCrow/node-getting-started#readme",
+  "bugs": {
+    "url": "https://github.com/Andrew-McCrow/node-getting-started/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrew-McCrow/node-getting-started.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "lodash": "^4.17.23"
+  }
+}
